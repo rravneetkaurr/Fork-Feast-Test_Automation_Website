@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="LoginTestSuite" parallel="methods" thread-count="2">
+    <test name="paralleltest">
+        <classes>
+            <class name="com.forkandfeast.tests.logintest"/>
+            <class name="com.forkandfeast.tests.searchtest"/>
+        </classes>
+    </test>
+</suite>
+ 

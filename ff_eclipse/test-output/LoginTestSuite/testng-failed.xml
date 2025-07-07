@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [LoginTestSuite]">
+  <test thread-count="2" parallel="methods" name="paralleltest(failed)">
+    <classes>
+      <class name="com.forkandfeast.tests.logintest">
+        <methods>
+          <include name="testLogin" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.forkandfeast.tests.logintest -->
+    </classes>
+  </test> <!-- paralleltest(failed) -->
+</suite> <!-- Failed suite [LoginTestSuite] -->
